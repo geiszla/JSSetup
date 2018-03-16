@@ -1,4 +1,4 @@
-# JSSetup
+# JS Setup
 Instructions for JS development environment setup with VSCode and ESLint
 
 ## Install Node.js
