@@ -2,11 +2,11 @@
 Instructions for JS development environment setup with VSCode and ESLint
 
 ## Install Node.js
-Install latest version of Node.js with default settings (https://nodejs.org/en/download/current/). On Linux, you may need to add the node/bin folder to the path manually.
+Install latest version of Node.js with default settings (https://nodejs.org/en/download/). On Linux, you may need to add the node/bin folder to the path manually.
 
 ## Install Visual Studio Code
 1. Download Visual Studio Code and install it with default settings (https://code.visualstudio.com/).
-2. Open project folder inside Visual Studio Code by clicking File > "Open Folder..." or by right clicking on the folder in Windows Explorer and clicking "Open with Code".
+2. Zou can open a project folder inside Visual Studio Code by clicking File > "Open Folder..." or by right clicking on the folder in Windows Explorer and clicking "Open with Code".
 3. Install ESLint extension for VSCode by selecting View > Extensions and typing it into the search field.
 4. If terminal is not open in the bottom of the text editor pane, open it by selecting View > "Integrated Terminal" menu option (or ``CTRL + ` ``).
 5. Install ESLint package for Node.js by typing `npm install -g eslint` to the terminal.
