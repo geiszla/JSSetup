@@ -20,6 +20,14 @@ Two fairly popular ESLint preset are AirBnB and Standard-JS. Choose `Standard` f
 2. Edit `.eslintrc` configuration
    - AirBnB: `{ "extends": "airbnb" }`
    - Standard: `{ "extends": "standard" }`
+3. To allow global variables to be recognized, add one or more of the following to the config file:
+```json
+"env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+},
+```
 
 For `AirBnB`, you can find a sample config in the `config` folder, which contains some basic rules to start with.
    
